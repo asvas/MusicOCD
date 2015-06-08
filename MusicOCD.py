@@ -1,10 +1,10 @@
-#import eyed3
-#help(eyed3)
-#tag = eyed3.tag()
-#tag.link("C:/Users/Vasil/Desktop/Test.mp3")
-#print(tag.getArtist())
-#print(tag.getAlbum())
-#print(tag.getTitle())
+import eyed3
+help(eyed3)
+tag = eyed3.tag()
+tag.link("Desktop/Test.mp3")
+print(tag.getArtist())
+print(tag.getAlbum())
+print(tag.getTitle())
 
 
 def opener():
